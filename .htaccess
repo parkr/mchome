@@ -1,0 +1,9 @@
+<Files ~ "\.(log|dat)$">
+deny from all
+</Files>
+
+ErrorDocument 400 /home/2011/pmoore6/public_html/errors/badrequest.html
+ErrorDocument 401 /home/2011/pmoore6/public_html/errors/authreqd.html
+ErrorDocument 403 /home/2011/pmoore6/public_html/errors/maintenance.html
+ErrorDocument 404 /home/2011/pmoore6/public_html/errors/notfound.html
+ErrorDocument 500 /home/2011/pmoore6/public_html/errors/server.html
